@@ -2,3 +2,4 @@ logs/*
 !.gitkeep
 /nbproject/private/
 /nbproject/
+npm-debug.log
