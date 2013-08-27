@@ -22,26 +22,26 @@ body {
 }
 #nav {
     display: inline-block;
+    vertical-align: top;
     width: 370px;
     background: #57a957;
-    height: 100%;
-    margin-left: -4px;
-    margin-bottom: 0;
+    height: calc(100% - 60px);
+    margin: 60px 0 0 -4px;
 }
 #main {
     display: inline-block;
+    vertical-align: top;
     width: calc(100% - 370px - 200px);
-    height: 100%;
+    height: calc(100% - 60px);
     margin-left: -4px;
     overflow: hidden;
     margin-bottom: 0;
-
+    margin-top: 60px;
 }
 #right_nav {
     display: inline-block;
-    height: 100%;
+    height: calc(100% - 60px);
     width: 200px;
     background: #f89406;
-    margin-left: -4px;
-    margin-bottom: 0;
+    margin: 60px 0 0 -4px;
 }

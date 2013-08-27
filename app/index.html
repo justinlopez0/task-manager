@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app>
 <head>
     <meta charset="utf-8">
     <title>My AngularJS App</title>
@@ -9,16 +9,24 @@
     <body>
         <div id="container">
             <div id="header">
-d
+            <div>fuck</div>
             </div>
             <div id="nav">
-c
+                <ul>
+                    <li><a href="//www.google.com">Google</a></li>
+                </ul>
             </div>
-            <div id="main">
-b
+            <div id="main" ng-controller="ctrl1">
+                {{ myObject.value }}
             </div>
             <div id="right_nav">
-a
+            Fuck off
             </div>
-        </container></body>
+        </div><script src="lib/angular/angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/services.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/filters.js"></script>
+        <script src="js/directives.js"></script>
+    </body>
 </html>
