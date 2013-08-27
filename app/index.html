@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="taskManager">
 <head>
     <meta charset="utf-8">
     <title>My AngularJS App</title>
@@ -7,11 +7,22 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
     <body>
-        Hello motto!
-    <!-- In production use:
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    -->
-        <script src="lib/angular/angular.js"></script>
+        <div id="container">
+            <div id="header">
+            <div>fuck</div>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="//www.google.com">Google</a></li>
+                </ul>
+            </div>
+            <div id="main" ng-controller="ctrl1">
+                {{ myObject.value }}
+            </div>
+            <div id="right_nav">
+            Fuck off
+            </div>
+        </div><script src="lib/angular/angular.js"></script>
         <script src="js/app.js"></script>
         <script src="js/services.js"></script>
         <script src="js/controllers.js"></script>

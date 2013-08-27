@@ -3,3 +3,4 @@ logs/*
 /nbproject/private/
 /nbproject/
 npm-debug.log
+.idea/*
